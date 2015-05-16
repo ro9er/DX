@@ -12,7 +12,5 @@ $g_memcached_servers = array(
     ),
   );
 
-
-define('MAIGO_ROOT', 'http://182.92.240.13/');
 define('APP_ID', 'wx59db48b43e04e4e0');
 define('APP_SECRET', 'cf6bde5774036c37b6363314d0a2f6a4');
