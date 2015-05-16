@@ -1,1 +1,18 @@
-DX is my girl DMM friend.
+=================================================
+dir structure
+-apps
+  -web
+  -xapi
+-css
+  -less
+  -site
+  -third
+-doc
+-javascript
+  -third
+  -web
+-php
+  -mvc
+  -thirdparty
+  -utils
+=================================================

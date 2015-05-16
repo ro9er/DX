@@ -56,13 +56,12 @@ class WeichatController extends ApiController
 
   private function Check()
   {
-    $token = 'maigohuang';
     $echo_str = HttpRequestHelper::GetParam('echostr');
     $sign = HttpRequestHelper::GetParam('signature');
     $timestamp = HttpRequestHelper::GetParam('timestamp');
     $nonce = HttpRequestHelper::GetParam('nonce');
 
-    $tmpArray = array($token, $timestamp, $nonce);
+    $tmpArray = array(TOKEN, $timestamp, $nonce);
     sort($tmpArray, SORT_STRING);
     $tmpStr = implode($tmpArray);
     $tmpStr = sha1($tmpStr);

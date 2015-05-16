@@ -19,8 +19,6 @@ class WebRouter extends UrlRouter
 
 $mapping = array(
   '/weichat' => 'WeichatController',
-  //interfaces
-  '/interfaecs/home_pick' => 'Interfaces/HomePickController',
   //pages
   );
 
